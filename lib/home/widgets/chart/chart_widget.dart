@@ -50,8 +50,9 @@ class _ChartWidgetState extends State<ChartWidget>
                   strokeWidth: 10,
                   value: _animation.value,
                   backgroundColor: AppColors.chartSecondary,
-                  valueColor:
-                      AlwaysStoppedAnimation<Color>(AppColors.chartPrimary),
+                  valueColor: AlwaysStoppedAnimation<Color>(
+                    AppColors.chartPrimary,
+                  ),
                 ),
               ),
             ),
