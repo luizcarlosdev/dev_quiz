@@ -37,7 +37,7 @@ class _HomePageState extends State<HomePage> {
           user: controller.user!,
         ),
         body: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 20.0),
+          padding: const EdgeInsets.symmetric(horizontal: 2.0),
           child: Column(
             children: [
               Row(
